@@ -49,8 +49,4 @@ class User extends Authenticatable
     public function listRegistered(){
         return $this->hasMany(ListRegistered::class);
     }
-
-    public function class(){
-        return $this->hasMany(Classes::class);
-    }
 }
